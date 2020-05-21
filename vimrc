@@ -2,7 +2,7 @@ set incsearch
 set hlsearch
 set guioptions=
 set cursorline
-set tabstop=2
+set tabstop=4
 set softtabstop=0
 set expandtab
 set shiftwidth=2
@@ -11,7 +11,7 @@ set smartindent
 set number
 let g:rainbow_active = 1
 set linespace=0
-colorscheme peachpuff
+colorscheme codedark
 let g:airline_theme='onedark'
 " air-line
 let g:airline_powerline_fonts = 1
@@ -43,4 +43,8 @@ syntax on
 set laststatus=2
 
 autocmd vimenter * NERDTree
+autocmd VimEnter * wincmd p
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 nnoremap <C-W> <C-W><C-W>
+
+set shell=/bin/bash

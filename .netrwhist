@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/eric/Courses/CSC367/Project/group_0452/project-part1'
+let g:netrw_dirhist_5='/Users/eric/Code/rs-swim/src'
+let g:netrw_dirhist_4='/Users/eric/Code/ring-proxy/src'
+let g:netrw_dirhist_3='/Users/eric/Code/Rust/rustlings/exercises/functions'
+let g:netrw_dirhist_2='/Users/eric/Code/Rust/rustlings/exercises'
+let g:netrw_dirhist_1='/Users/eric/Code/Rust/rustlings'
+let g:netrw_dirhist_0='/Users/eric/Code/Rust/rustlings/exercises/functions'
+let g:netrw_dirhist_9='/Users/eric/Code/Rust/rustlings/exercises'
+let g:netrw_dirhist_8='/Users/eric/Code/Rust/rustlings'
+let g:netrw_dirhist_7='/Users/eric/Code/Rust/rustlings/exercises/if'
